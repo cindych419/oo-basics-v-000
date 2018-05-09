@@ -5,7 +5,7 @@ attr_accessor :color, :size, :material, :condition
     @brand = brand
   end
   def cobble
-    @condition = new
+    @condition = "new"
   end
 end
 # Make your shoe class here!
